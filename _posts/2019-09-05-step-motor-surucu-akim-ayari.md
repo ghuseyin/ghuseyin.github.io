@@ -33,7 +33,7 @@ Pololu marka bir A4988'e sahipseniz görünüşü şöyledir:
 ![Pololu A4988 Step Motor Sürücü Kartı](https://a.pololu-files.com/picture/0J10065.180.jpg?b63f11341129426340f57ab54e30c6fb)
 
 Rcs değerini bu fotoğrafa bakarak öğrenebilirsiniz.
-![Pololu A4988 Rcs]({{site.baseurl}}/assets/img/pololu-rcs.jpg)
+
 
 Rcs değerinizi öğrendiyseniz bunu not alın ve bir sonraki kısma geçin. Eğer step motor sürücünüzün A4988 olduğuna eminseniz ama fotoğraftakilerin ikisi de değilse muhtemelen Çin malı A4988'e sahipsiniz. Şimdi onlara bakalım.
 
@@ -46,7 +46,6 @@ Renginin Rsc değeri ile bir alakası yok, bu sizi şaşırtmasın. Rsc değerin
 ![A4988 Rsc Direnç S1 S2](https://reprap.org/mediawiki/images/thumb/3/31/A4988_detail_current_sense_r_1a.jpg/320px-A4988_detail_current_sense_r_1a.jpg)
 
 Bu fotoğrafta ise R5 ve R5 ile:
-![A4988 Rsc Direnç R4 R5]({{site.baseurl}}/assets/img/A4988_step_motor_surucu.jpg)
 
 İlk fotoğrafta R100, ikincide R10 olarak görünen dirençler sizde farklı olabilir. Eğer sizde 
 * R100 veya R10 ise Rsc değeriniz 0.1 Ohm'dur.
@@ -108,7 +107,7 @@ DRV8825 için GND pini:
  
 ![GND Pini](https://reprap.org/mediawiki/images/thumb/f/f3/Stepper_drivers_a4988_drv8825_4a.jpg/320px-Stepper_drivers_a4988_drv8825_4a.jpg)
 
-![Step Motor Sürücü Akım Ayarı]({{site.baseurl}}/assets/img/StepSurucuAkimAyari.jpg)
+
 
 Avometreyi 20V DC voltaj ölçme konumuna alıp "+" ucunu motor sürücünün ayar potuna, "-" ucunu da GND pinlerinden birine değdirmemiz gerekiyor. Bunu yaparken birinden yardım almanızda fayda var. Avometredeki değere bakarken eliniz biraz kayarsa kablo yanlış pine değecek ve sürücü büyük ihtimalle yanacaktır. Kabloları tutan kişi gözünü sürücüden ayırmadan kabloları tutarken başka biri avometrede görünen değeri okursa muhtemel bir kazanın önüne geçilmiş olur.
 
