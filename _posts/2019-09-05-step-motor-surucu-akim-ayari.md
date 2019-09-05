@@ -2,7 +2,7 @@
 layout: post
 tags: [A4988, DRV8825, elektronik, 3D]
 date: 2019-09-05 13:14:15
-image: 'https://reprap.org/mediawiki/images/d/df/Stepper_drivers_a4988_drv8825_3a.jpg'
+image: 'https://reprap.org/mediawiki/images/thumb/d/df/Stepper_drivers_a4988_drv8825_3a.jpg/800px-Stepper_drivers_a4988_drv8825_3a.jpg'
 description: A4988 ve DRV8825 step motor sürücülerinin akım ayarını yaparak 3D yazıcının step motorlarının aşırı ısınma ve adım kaçırma sorununu çözeceğiz...
 #permalink:
 title: 'Step Motor Sürücü Akım Ayarı ve Isınma Sorunu'
@@ -31,7 +31,7 @@ Step motor sürücümüzü ayarlayabilmemiz için ilk olarak sürücümüzün *R
 
 ### Pololu A4988 Step Motor Sürücü Kartı
 Pololu marka bir A4988'e sahipseniz görünüşü şöyledir:
-![Pololu A4988 Step Motor Sürücü Kartı - pololu.com/product/1182](https://a.pololu-files.com/picture/0J10065.1200.jpg?b63f11341129426340f57ab54e30c6fb)
+![Pololu A4988 Step Motor Sürücü Kartı - pololu.com/product/1182](https://a.pololu-files.com/picture/0J10065.1200.jpg?b63f11341129426340f57ab54e30c6fb =120x112)
 
 Rcs değerini bu fotoğrafa bakarak öğrenebilirsiniz.
 ![Pololu A4988 Rcs](https://a.pololu-files.com/picture/0J10071.1200.jpg?0eb1450425fcc3730117ddaadee7c6c8)
