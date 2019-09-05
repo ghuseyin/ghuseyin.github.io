@@ -99,10 +99,10 @@ Vref değeri DRV8825 için şu şekilde hesaplanır:
 Gücü kesip step motorun kablolarını sürücüden ayırdıktan sonra sürücüye yeniden güç vermemiz gerekiyor. Son durumda motorlar sürücüye bağlı değil ve sürücü çalışır durumda olmalı.
 
 Son olarak GND pinini de bilmemiz gerekiyor. GND pini A4988 step motor sürücü kartlarında şekildeki gibidir:
-# ![Pololu A4988 Step Motor Sürücü Devre Şeması](https://a.pololu-files.com/picture/0J10073.600.jpg?75d9ca5bb2e095e5c5f64350019e1b81)
+![Pololu A4988 Step Motor Sürücü Devre Şeması](https://a.pololu-files.com/picture/0J10073.600.jpg?75d9ca5bb2e095e5c5f64350019e1b81 =400x100)
 
 DRV8825 için GND pini:
-# ![Pololu DRV8825 Step Motor Sürücü Devre Şeması](https://a.pololu-files.com/picture/0J4232.600.png?f2f6269e0a80c41f0a5147915106aa55)
+![Pololu DRV8825 Step Motor Sürücü Devre Şeması](https://a.pololu-files.com/picture/0J4232.600.png?f2f6269e0a80c41f0a5147915106aa55)
 
 > Farklı model kartların GND pinleri farklı yerlerdedir. Her kartın altında veya üstünde GND pini yazıyla da belirtilmiş olmalı. Emin olmak için kartınızdaki yazıyı kontrol edin. **Eğer yanlış yere değdirirseniz sürücü yanacaktır.**
  
@@ -124,7 +124,7 @@ Ayar potları çok hassas olduğu için istediğiniz değere ayarlamanız zor ol
 
 Step motorları yeniden sürücüye bağladıktan sonra karta güç verebilirsiniz. Kullanmadan önce step motor sürücünüzün üzerine alüminyum soğutucu blok yerleştirmeniz ve fan ile aktif soğutma yapmanız önerilir. Aksi hâlde sürücülerinizin aşırı ısınıp adım kaçırması ve buna bağlı olarak eksen kayması yaşamanız muhtemeldir.
 
-![RAMPS Soğutma]({{site.baseurl}}/assets/img/RAMPS_Sogutma.jpg)
+![RAMPS Soğutma]({{site.baseurl}}/assets/img/RAMPS_Sogutma.jpg =250x)
 
 Çalışma sırasında da step motorların sıcaklığını kontrol etmelisiniz. Elinizi yakacak kadar ısınıyor ve adım kaçırma devam ediyorsa yaptıklarınızı gözden geçirmeli ve akımı biraz daha kısmalısınız. Eğer motor serin çalışıyor ve adım kaçırıyorsa muhtemelen akımı fazla kısmışsınızdır.
 
