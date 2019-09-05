@@ -31,7 +31,7 @@ Step motor sürücümüzü ayarlayabilmemiz için ilk olarak sürücümüzün *R
 
 ### Pololu A4988 Step Motor Sürücü Kartı
 Pololu marka bir A4988'e sahipseniz görünüşü şöyledir:
-![Pololu A4988 Step Motor Sürücü Kartı - pololu.com/product/1182](https://a.pololu-files.com/picture/0J10065.1200.jpg?b63f11341129426340f57ab54e30c6fb =120x112)
+![Pololu A4988 Step Motor Sürücü Kartı - pololu.com/product/1182](https://a.pololu-files.com/picture/0J10065.1200.jpg?b63f11341129426340f57ab54e30c6fb =240x224)
 
 Rcs değerini bu fotoğrafa bakarak öğrenebilirsiniz.
 ![Pololu A4988 Rcs](https://a.pololu-files.com/picture/0J10071.1200.jpg?0eb1450425fcc3730117ddaadee7c6c8)
