@@ -3,7 +3,7 @@ layout: post
 title: Step Motor Sürücü Akım Ayarı ve Isınma Sorunu
 date: 2019-09-05 13:14:15
 description: A4988 ve DRV8825 step motor sürücülerinin akım ayarını yaparak 3D yazıcının step motorlarının aşırı ısınma ve adım kaçırma sorununu çözeceğiz...
-img: a4988-drv8825-mini.jpg
+img: a4988-drv8825.jpg
 tags: [A4988, DRV8825, elektronik, 3D]
 ---
 
@@ -99,10 +99,10 @@ Vref değeri DRV8825 için şu şekilde hesaplanır:
 Gücü kesip step motorun kablolarını sürücüden ayırdıktan sonra sürücüye yeniden güç vermemiz gerekiyor. Son durumda motorlar sürücüye bağlı değil ve sürücü çalışır durumda olmalı.
 
 Son olarak GND pinini de bilmemiz gerekiyor. GND pini A4988 step motor sürücü kartlarında şekildeki gibidir:
-![Pololu A4988 Step Motor Sürücü Devre Şeması](https://a.pololu-files.com/picture/0J10073.600.jpg?75d9ca5bb2e095e5c5f64350019e1b81 =400x100)
+
 
 DRV8825 için GND pini:
-![Pololu DRV8825 Step Motor Sürücü Devre Şeması](https://a.pololu-files.com/picture/0J4232.600.png?f2f6269e0a80c41f0a5147915106aa55)
+
 
 > Farklı model kartların GND pinleri farklı yerlerdedir. Her kartın altında veya üstünde GND pini yazıyla da belirtilmiş olmalı. Emin olmak için kartınızdaki yazıyı kontrol edin. **Eğer yanlış yere değdirirseniz sürücü yanacaktır.**
  
