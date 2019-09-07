@@ -36,17 +36,17 @@ Pololu marka bir A4988'e sahipseniz görünüşü bunlardan biridir:
 Eğer bunlardan biriyse Rcs değerinizi not alın ve bir sonraki kısma geçin. Eğer step motor sürücünüzün A4988 olduğuna eminseniz ama fotoğraftakilerin ikisi de değilse muhtemelen Çin malı A4988'e sahipsiniz. Şimdi onlara bakalım.
 
 ### Çin Malı A4988 Step Motor Sürücü Kartı
-Genelde kırmızı veya yeşil PCB'ye sahiptirler. Farklı Rsc değerlerine sahip modelleri var. 
-Renginin Rsc değeri ile bir alakası yok, bu sizi şaşırtmasın. Rsc değerini öğrenmek için entegrenin hemen yanındaki dirençlere bakmamız gerekiyor. Bu dirençler bazı modellerde S1 S2 gibi veya R4 R5 gibi yazılarla işaretleniyor. Kart üzerinde göstermek gerekirse bu fotoğrafta S1 ve S2 ile gösterilmiş:
+Genelde kırmızı veya yeşil PCB'ye sahiptirler. Farklı Rcs değerlerine sahip modelleri var. 
+Renginin Rcs değeri ile bir alakası yok, bu sizi şaşırtmasın. Rcs değerini öğrenmek için entegrenin hemen yanındaki dirençlere bakmamız gerekiyor. Bu dirençler bazı modellerde S1 S2 gibi veya R4 R5 gibi yazılarla işaretleniyor. Kart üzerinde göstermek gerekirse bu fotoğrafta S1 ve S2 ile gösterilmiş:
 ![A4988 Akım Ayar Direnci S1 S2](https://reprap.org/mediawiki/images/thumb/3/31/A4988_detail_current_sense_r_1a.jpg/320px-A4988_detail_current_sense_r_1a.jpg)
 Bu fotoğrafta ise R5 ve R5 ile:
-![A4988 Rsc Direnç R4 R5]({{site.baseurl}}/assets/img/A4988_step_motor_surucu.jpg)
+![A4988 Rcs Direnç R4 R5]({{site.baseurl}}/assets/img/A4988_step_motor_surucu.jpg)
 
 İlk fotoğrafta R100, ikincide R10 olarak görünen dirençler sizde farklı olabilir. Eğer sizde 
-* R100 veya R10 ise Rsc değeriniz 0.1 Ohm'dur.
-* R200 veya R20 ise Rsc değeriniz 0.2 Ohm'dur.
-* R050 veya R05 ise Rsc değeriniz 0.05 Ohm'dur.
-* R068 ise Rsc değeriniz 0.068 Ohm'dur.
+* R100 veya R10 ise Rcs değeriniz 0.1 Ohm'dur.
+* R200 veya R20 ise Rcs değeriniz 0.2 Ohm'dur.
+* R050 veya R05 ise Rcs değeriniz 0.05 Ohm'dur.
+* R068 ise Rcs değeriniz 0.068 Ohm'dur.
 
 Eğer farklı bir değer yazıyorsa doğru dirence baktığınızdan emin olun. Eğer eminseniz küçük bir araştırmayla direncin üzerindeki yazının değer karşılığını bulabilirsiniz ama muhtemelen hâlâ yanlış dirence bakıyorsunuz.
 
@@ -54,7 +54,7 @@ Eğer farklı bir değer yazıyorsa doğru dirence baktığınızdan emin olun. 
 Pololu üretimi DRV8825 step motor sürücü kartı bu şekilde görünür:
 ![Pololu DRV8825 Step Motor Sürücü](https://a.pololu-files.com/picture/0J4227.1200.jpg?7479185b591b5fa757c5687a5ee3b7d2)
 
-Çin malı olanları da mor PCB'ye sahip. Standart DRV8825 kartların Rsc değeri 0.1 Ohm'dur. Standart olduğu için DRV8825 kullanacaksanız bu değeri not almanıza gerek yok.
+Çin malı olanları da mor PCB'ye sahip. Standart DRV8825 kartların Rcs değeri 0.1 Ohm'dur. Standart olduğu için DRV8825 kullanacaksanız bu değeri not almanıza gerek yok.
 
 ## 2. Step Motorumuzu Tanıyalım
 
@@ -70,6 +70,7 @@ Vref değerini A4988 için şu şekilde hesaplayabiliriz:
 
 Örneğin A4988 kullanıyorsak, akımı 0.7 Amper olarak ayarlayacaksak ve Rcs değerimiz 0.2 Ohm ise denklemimiz şöyle olacaktır: 
 > Vref = 8 x 0.7 x 0.2
+
 > Vref = 1.12
 
 Ayarlamak istediğimiz akım yine 0.7 Amper ama Rcs değerimiz 0.05 Ohm ise denklemimiz şöyle olur:
@@ -85,6 +86,8 @@ Vref değeri DRV8825 için şu şekilde hesaplanır:
 Örneğin 0.7 Amper akıma ayarlayacaksak Vref değerimiz:
 > Vref = 0.7 / 2
 > Vref = 0.35
+
+Extruder motorları çok hızlı ileri-geri hareket etmek zorunda kalabileceği için akım sınırını bir tık daha yüksek tutmanızda fayda var.
 
 ## 4. Ayar
 
@@ -130,7 +133,7 @@ Eksen kayması devam ediyorsa kullandığınız yazılımdan ivme ve *jerk* değ
 
 Bütün bunlara rağmen eksen kayması yaşıyorsanız kayma yaşadığınız eksenin motor ve sürücüsünü kayma yaşamadığınız bir ekseninkiyle değiştirip sorunun diğer eksene geçip geçmediğine bakabilirsiniz. Eğer geçtiyse sorun diğer eksene taşıdığınız parçalardadır, geçmediyse muhtemelen mekanik veya yazılımsaldır.
 
-## Kaynakça
+## Kaynaklar
 
 * https://reprap.com/wiki/A4988
 * https://reprap.com/wiki/DRV8825
