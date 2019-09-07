@@ -75,6 +75,7 @@ Vref değerini A4988 için şu şekilde hesaplayabiliriz:
 
 Ayarlamak istediğimiz akım yine 0.7 Amper ama Rcs değerimiz 0.05 Ohm ise denklemimiz şöyle olur:
 > Vref = 8 x 0.7 x 0.05
+
 > Vref = 0.28
 
 Gördüğünüz gibi aynı akıma ayarlamamıza rağmen Rcs değerinden dolayı Vref değeri 4 kat değişti. İşte bu yüzden A4988 kullananlar için Rcs değerini bilmek çok önemli. Eğer Rcs değerinizi bilmiyorsanız lütfen 1. kısma geri dönün.
@@ -85,6 +86,7 @@ Vref değeri DRV8825 için şu şekilde hesaplanır:
 
 Örneğin 0.7 Amper akıma ayarlayacaksak Vref değerimiz:
 > Vref = 0.7 / 2
+
 > Vref = 0.35
 
 Extruder motorları çok hızlı ileri-geri hareket etmek zorunda kalabileceği için akım sınırını bir tık daha yüksek tutmanızda fayda var.
@@ -133,7 +135,7 @@ Eksen kayması devam ediyorsa kullandığınız yazılımdan ivme ve *jerk* değ
 
 Bütün bunlara rağmen eksen kayması yaşıyorsanız kayma yaşadığınız eksenin motor ve sürücüsünü kayma yaşamadığınız bir ekseninkiyle değiştirip sorunun diğer eksene geçip geçmediğine bakabilirsiniz. Eğer geçtiyse sorun diğer eksene taşıdığınız parçalardadır, geçmediyse muhtemelen mekanik veya yazılımsaldır.
 
-## Kaynaklar
+## İlgili Bağlantılar
 
 * https://reprap.com/wiki/A4988
 * https://reprap.com/wiki/DRV8825
