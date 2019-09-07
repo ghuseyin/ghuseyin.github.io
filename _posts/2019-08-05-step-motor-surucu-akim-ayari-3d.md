@@ -113,7 +113,7 @@ DRV8825 için GND pini:
 
 Avometreyi 20V DC voltaj ölçme konumuna alıp "+" ucunu motor sürücünün ayar potuna, "-" ucunu da GND pinlerinden birine değdirmemiz gerekiyor. Bunu yaparken birinden yardım almanızda fayda var. Avometredeki değere bakarken eliniz biraz kayarsa kablo yanlış pine değecek ve sürücü büyük ihtimalle yanacaktır. Kabloları tutan kişi gözünü sürücüden ayırmadan kabloları tutarken başka biri avometrede görünen değeri okursa muhtemel bir kazanın önüne geçilmiş olur.
 
-Eğer okuduğunuz değer ayarlamak istediğiniz Vref değerinden farklıysa ayar potunu ince, yalıtılmış bir tornavidayla çok çok az çevirdikten sonra yeniden ölçün. 
+Eğer okuduğunuz değer ayarlamak istediğiniz Vref değerinden farklıysa ayar potunu mümkünse plastik uçlu bir tornavidayla (elektrostatik deşarjı önlemek için) çok çok az çevirdikten sonra yeniden ölçün. 
 
 > Değeri arttırmak-azaltmak için çevirme yönü karta göre değişir. En iyisi deneyerek arttırma-azaltma yönünü bulmak.
 
