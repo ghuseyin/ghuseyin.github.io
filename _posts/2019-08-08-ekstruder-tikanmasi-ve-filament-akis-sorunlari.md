@@ -66,7 +66,7 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
  Makaranın yeterince kolay dönüp dönmediğini kontrol etmek için filamenti elinizle çekmeyi deneyebilirsiniz. Eğer elinizle zorlamadan çekemiyorsanız motor da çekemeyecektir.
 
 ### 3. Nozülün Tıkanması
-Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor olabilir. Filamentin temiz ve kuru olduğundan emin olun. Genelde filamenti elinizle itmeniz nozülü açacaktır ama temizlemeniz gerekirse:
+Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor olabilir. Filamentin temiz ve kuru olduğundan emin olun. Genelde yazdırma sıcaklığında filamenti elinizle itmeniz nozülü açacaktır ama temizlemeniz gerekirse:
 **Nozül sıcakken kesinlikle elinizle dokunmayın!**
 1. Nozülü 100°C'a ısıtıp yaylı vidaları söküp filamenti çıkarın.
 2. Nozülü sıcakken sökün. Soğuduğunda sökülmeyebilir. Hâlâ sökülmüyorsa yazdırma sıcaklığına kadar ısıtabilirsiniz. ( **Sakın elinizle dokunmayın!** )
@@ -86,7 +86,9 @@ Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor ola
 Alüminyum radyatörün başlangıcından başlayıp nozülün başlangıcına kadar devam eden bir teflon boru, filamentin yumuşadığında kendini tıkamasını engelleyecektir. Bazı ekstruderlerin yanında gelen, çelik barelden nozüle kadar olan teflon boru yetersizdir. Eğer böyle bir extrudere sahipseniz radyatörün başlangıcından çelik barele kadar bir teflon boru daha eklemeniz gerekir. 
 
 ![Alüminyum Radyatör için Teflon PTFE Boru]({{site.baseurl}}/assets/img/aluminyum_radyator_teflon.jpg)
+
 ![Çelik Barel Teflon Ekleme]({{site.baseurl}}/assets/img/barel_teflon_ekleme.jpg)
+
 ![Çelik Barel PTFE Ekleme]({{site.baseurl}}/assets/img/barel_PTFE_ekleme.jpg)
 
 ### 5. Yay Gerginlik Ayarı
@@ -94,7 +96,7 @@ Alüminyum radyatörün başlangıcından başlayıp nozülün başlangıcına k
 
 Yayların gerginliğini kontrol etmek için:
 1. Filamenti çıkartın.
-2. Alüminyum radyatörden itibaren filamentin geçeceği bütün parçaları söküp ayırın. (Sökebilmek için ısıtmanız gerekebilir.)
+2. Alüminyum radyatörden itibaren filamentin geçeceği bütün parçaları söküp ayırın.
 3. Gücü kesin.
 4. Extruder motorunun kablosunu çıkartın.
 5. Ekstruderi elinizle hızlıca çevirerek filamentin yeterince hareket edip etmediğine bakın.
@@ -102,9 +104,10 @@ Yayların gerginliğini kontrol etmek için:
 Çok kolay bir işlem değil ama yay gerginliği ile alakalı bir sorununuz varsa anlamınızı sağlayacaktır.
 
 ### 6. Hot End Vida Bağlantılarından Filament Sızması
- Isıtılan alüminyum bloğa bağlı nozül çelik barelin vida dişlerinin arasından erimiş plastik sızabilir. Nozül ve çelik bareli söküp (sökmek için ısıtmak gerekebilir) vida dişlerine tesisatçıların kullandığı PTFE (Teflon) bant sarmak gerekir.
+ Isıtılan alüminyum bloğa bağlı nozül çelik barelin vida dişlerinin arasından erimiş plastik sızabilir. Nozül ve çelik bareli söküp vida dişlerine tesisatçıların kullandığı PTFE (Teflon) bant sarmak gerekir.
 1. Vida dişlerini kir, plastik vb. her şeyden tamamen temizleyin.
 2. Teflon bandı biraz gererek **saat yönünde** bir kaç tur sarın. Tersi yönde sararsanız vidayı takarken bant sökülecektir.
 
 ![Filament Sızması Sorunu Çözümü]({{site.baseurl}}/assets/img/filament_sizdirma.jpg)
 
+Önerilerinizi ve hatalarımı yorumlarda belirtirseniz yazıyı ona göre güncelleyebilirim. Sorunsuz yazdırmalar...
