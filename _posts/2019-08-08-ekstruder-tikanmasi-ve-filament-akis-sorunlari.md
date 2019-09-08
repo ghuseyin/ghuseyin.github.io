@@ -3,7 +3,7 @@ layout: post
 title: Ekstruder Tıkanması ve Filament Akış Sorunları
 date: 2019-09-08 23:20:20 +0300
 description: Nozülün Tıkanması, Filamentin Kendi Yolunu Kapatarak Tıkanması, Yay Gerginlik Ayarı, Hot End Vida Bağlantılarından Filament Sızması
-img: extruder_hot_col_end_parcalari.jpg # Add image post (optional)
+img: extruder_hot_cold_end_parcalari.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 ---
