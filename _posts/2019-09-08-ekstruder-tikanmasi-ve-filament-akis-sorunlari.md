@@ -36,7 +36,7 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 ![Dişliler İle Tork Kazancı]({{site.baseurl}}/assets/img/disliler_ile_tork_kazanci.jpg)
 
 ### 2. Yay(lar)
- Hobbed bolt ve rulman arasına sıkıştırılan filament her zaman aynı genişlikte değildir. Mesela aldığınız filamentin kutusunda 1.75mm yazıyor olabilir ama aynı filamentin bazı yerleri 1.70, bazı yerlerde 1.80 olabilir. Hobbed bolt ve rulman arasındaki mesafenin de buna göre değişebilmesi gerekir. Filament inceldiğinde daralmalı, kalınlaştığında genişlemelidir. Yoksa extrüzyon durur. Bu yüzden rulmanı direk vida ile değil, araya yay ekleyerek tutturulur. Bazı ekstruderlerde 1, bazılarında 2 yay kullanılır.
+ Hobbed bolt ve rulman arasına sıkıştırılan filament her zaman aynı genişlikte değildir. Mesela aldığınız filamentin kutusunda 1.75mm yazıyor olabilir ama aynı filamentin bazı yerleri 1.70mm, bazı yerleri 1.80mm olabilir. Hobbed bolt ve rulman arasındaki mesafenin de buna göre değişebilmesi gerekir. Filament inceldiğinde daralmalı, kalınlaştığında genişlemelidir. Yoksa extrüzyon durur. Bu yüzden rulman direk vida ile değil, araya yay eklenerek tutturulur. Bazı ekstruderlerde 1, bazılarında 2 yay kullanılır.
 
 ![Ekstruder Yayları]({{site.baseurl}}/assets/img/ekstruder_yaylari.jpg)
 
@@ -46,12 +46,12 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 
 
 ### 3. Cold End (Soğuk Kısım)
- Filament itildikten sonra eritilmek için sıcak uca ulaşmadan önce genelde alüminyum olan soğuk bir radyatörden ardında da çelik bir barelden geçer. Buraya kadar filament hâlâ katıdır.
+ Filament itildikten sonra eritilmek için sıcak uca ulaşmadan önce genelde alüminyum olan soğuk bir radyatörden geçip çelik bir barele ulaşır. Buraya kadar filament hâlâ katıdır.
 
 ![Ekstruder Parçaları]({{site.baseurl}}/assets/img/ekstruder_parcalari.jpg)
 
 ### 4. Hot End (Sıcak Kısım)
- Çelik barelin ucunda ısıtılmış alüminyum bloğa bağlı nozül'e (nozzle) ulaşır ve burada erir. 
+ Ardından çelik barelin ucundaki ısıtılmış alüminyum bloğa bağlı nozül'e (nozzle) ulaşır ve burada erir. 
 
 ## Sorunlar
 
@@ -67,7 +67,8 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 
 ### 3. Nozülün Tıkanması
 Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor olabilir. Filamentin temiz ve kuru olduğundan emin olun. Genelde yazdırma sıcaklığında filamenti elinizle itmeniz nozülü açacaktır ama temizlemeniz gerekirse:
-**Nozül sıcakken kesinlikle elinizle dokunmayın!**
+
+( **Nozül sıcakken kesinlikle elinizle dokunmayın!** )
 1. Nozülü 100°C'a ısıtıp yaylı vidaları söküp filamenti çıkarın.
 2. Nozülü sıcakken sökün. Soğuduğunda sökülmeyebilir. Hâlâ sökülmüyorsa yazdırma sıcaklığına kadar ısıtabilirsiniz. ( **Sakın elinizle dokunmayın!** )
 3. Nozülü söktükten sonra penseyle tutup metal bir şeyle temizleyebilirsiniz. Soğuyan plastik çıkmıyorsa çakmakla da ısıtabilirsiniz.
@@ -104,7 +105,7 @@ Yayların gerginliğini kontrol etmek için:
 Çok kolay bir işlem değil ama yay gerginliği ile alakalı bir sorununuz varsa anlamınızı sağlayacaktır.
 
 ### 6. Hot End Vida Bağlantılarından Filament Sızması
- Isıtılan alüminyum bloğa bağlı nozül çelik barelin vida dişlerinin arasından erimiş plastik sızabilir. Nozül ve çelik bareli söküp vida dişlerine tesisatçıların kullandığı PTFE (Teflon) bant sarmak gerekir.
+ Isıtılan alüminyum bloğa bağlı nozül ve çelik barelin vida dişlerinin arasından erimiş plastik sızabilir. Nozül ve çelik bareli söküp vida dişlerine tesisatçıların kullandığı PTFE (Teflon) bant sarmak gerekir.
 1. Vida dişlerini kir, plastik vb. her şeyden tamamen temizleyin.
 2. Teflon bandı biraz gererek **saat yönünde** bir kaç tur sarın. Tersi yönde sararsanız vidayı takarken bant sökülecektir.
 
