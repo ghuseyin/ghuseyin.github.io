@@ -27,7 +27,7 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 ## Tipik Bir Ekstrüzyon Sistemi
 
 ### 1. Motor ve İtiş
- Genelde motorun miline takılan ve *hobbed gear* denilen bir dişli ve bu dişlinin karşına gelen bir rulman bulunur. Filament bu dişli ve rulman arasına sıkıştırılır. Motor miline bağlı dişlinin dönmesiyle de filament hareket etmiş olur.
+ Genelde, motorun miline takılan *hobbed gear* denilen bir dişli ve bu dişlinin karşına gelen bir rulman bulunur. Filament bu dişli ve rulman arasına sıkıştırılır. Motor miline bağlı dişlinin dönmesiyle de filament hareket etmiş olur.
 
 ![Extruder Hobbed Bolt]({{site.baseurl}}/assets/img/hobbed_bolt_filament.jpg)
 
