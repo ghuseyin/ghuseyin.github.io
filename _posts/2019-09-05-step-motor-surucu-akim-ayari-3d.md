@@ -141,3 +141,5 @@ Bütün bunlara rağmen eksen kayması yaşıyorsanız kayma yaşadığınız ek
 * https://reprap.com/wiki/DRV8825
 * https://www.pololu.com/product/1182
 * https://www.pololu.com/product/2133
+
+Önerilerinizi ve hatalarımı yorumlarda belirtirseniz yazıyı ona göre güncelleyebilirim. Sorunsuz yazdırmalar...
