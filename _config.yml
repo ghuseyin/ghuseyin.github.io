@@ -29,6 +29,10 @@ plugins:
   - jekyll-paginate
   - jemoji
   - jekyll-feed
+  
+kramdown:
+  smart_quotes:               apos,apos,quot,quot
+  typographic_symbols:        {hellip: ...}
 
 paginate: 8
 paginate_path: "/page/:num"
