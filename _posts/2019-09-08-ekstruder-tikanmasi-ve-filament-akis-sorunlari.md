@@ -21,6 +21,8 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 	2. Filament Makarası Sorunları
 	3. Nozülün Tıkanması
 	4. Filamentin Kendi Yolunu Kapatarak Tıkanması
+		a. Ekstruder Radyatörünün Soğutulması
+		b. PTFE Boru ile Filament Yolu
 	5. Yay Gerginlik Ayarı
 	6. Hot End Vida Bağlantılarından Filament Sızması
 
@@ -66,17 +68,18 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
  Makaranın yeterince kolay dönüp dönmediğini kontrol etmek için filamenti elinizle çekmeyi deneyebilirsiniz. Eğer elinizle zorlamadan çekemiyorsanız motor da çekemeyecektir.
 
 ### 3. Nozülün Tıkanması
- Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor olabilir. Filamentin temiz ve kuru olduğundan emin olun. Genelde yazdırma sıcaklığında filamenti elinizle itmeniz nozülü açacaktır ama temizlemeniz gerekirse:
+ Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor olabilir. Filamentin temiz ve kuru olduğundan emin olun. Genelde yazdırma sıcaklığının 20°C üzerinde filamenti elinizle itmeniz nozülü açacaktır ama söküp temizlemeniz gerekirse:
 
 ( **Nozül sıcakken kesinlikle elinizle dokunmayın!** )
-1. Nozülü 100°C'a ısıtıp yaylı vidaları söküp filamenti çıkarın.
-2. Nozülü sıcakken sökün. Soğuduğunda sökülmeyebilir. Hâlâ sökülmüyorsa yazdırma sıcaklığına kadar ısıtabilirsiniz. ( **Sakın elinizle dokunmayın!** )
-3. Nozülü söktükten sonra penseyle tutup metal bir şeyle temizleyebilirsiniz. Soğuyan plastik çıkmıyorsa çakmakla da ısıtabilirsiniz.
+1. Nozülü 240°C'a ısıtıp yaylı vidaları söküp filamenti çıkarın.
+2. Nozülü sıcakken neredeyse çıkacak kadar gevşetin. Soğuduğunda sökülmeyebilir.( **Sakın elinizle dokunmayın!** )
+3. Isıtmayı kapatmadan rezistansı veya termistörü çıkartmayın. Soğumasını bekleyin.
+4. Nozülü söküp çıkardıktan sonra temizleyebilirsiniz. Soğuyan plastik çıkmıyorsa nozülü penseyle tutup çakmakla ısıtarak metal bir şeyle temizleyebilirsiniz.
 
 ### 4. Filamentin Kendi Yolunu Kapatarak Tıkanması
  3D yazıcılarda ekstruderin tıkanmasına sebep olan sorunlardan en sık görülenidir. Sıcak alüminyum bloktaki ısı önce çelik barele, ordan da alüminyum radyatöre geçecektir. Bu da alüminyum radyatörün ısınması anlamına gelir. Alüminyum radyatör ısınırsa filament erimesi gereken yerden çok daha geride yumuşayıp şekil değiştirecek ve şekil değiştirdikten sonra katılaşarak yolunu tıkayacaktır. Alüminyum radyatörün soğutulması ve PTFE (Teflon) boru kullanılarak filamentin yumuşadığında şekil değiştirmesinin önlenmesi gerekir.
 
-#### a. Radyatörün Soğutulması
+#### a. Ekstruder Radyatörünün Soğutulması
  30x30mm bir fan alüminyum bloğu soğutmak için yeterli olacaktır. 3D yazıcılarda kullanılan fanların çalışma gerilimi genelde 12 Volt olur.
 
 ![Ekstruder Alümiyum Bloğun Fan ile Soğutlması]({{site.baseurl}}/assets/img/aluminyum_blok_sogutma_fan.jpg)
@@ -114,6 +117,7 @@ Yayların gerginliğini kontrol etmek için:
 2. Teflon bandı biraz gererek **saat yönünde** bir kaç tur sarın. Tersi yönde sararsanız vidayı takarken bant sökülecektir.
 
 ![Filament Sızması Sorunu Çözümü]({{site.baseurl}}/assets/img/filament_sizdirma.jpg)
+
 Çelik bareli alüminyum radyatöre bağlayan dişlere de (Fotoğrafta teflon bant sarılmamış olan dişlere) taşmayacak kadar termal macun sürmeniz filamentin yanlış yerde erimemesi için barelin daha etkili soğutulmasını sağlayacaktır.
 
 
