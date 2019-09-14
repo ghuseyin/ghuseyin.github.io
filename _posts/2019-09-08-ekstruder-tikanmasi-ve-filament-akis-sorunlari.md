@@ -66,7 +66,7 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
  Makaranın yeterince kolay dönüp dönmediğini kontrol etmek için filamenti elinizle çekmeyi deneyebilirsiniz. Eğer elinizle zorlamadan çekemiyorsanız motor da çekemeyecektir.
 
 ### 3. Nozülün Tıkanması
-Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor olabilir. Filamentin temiz ve kuru olduğundan emin olun. Genelde yazdırma sıcaklığında filamenti elinizle itmeniz nozülü açacaktır ama temizlemeniz gerekirse:
+ Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor olabilir. Filamentin temiz ve kuru olduğundan emin olun. Genelde yazdırma sıcaklığında filamenti elinizle itmeniz nozülü açacaktır ama temizlemeniz gerekirse:
 
 ( **Nozül sıcakken kesinlikle elinizle dokunmayın!** )
 1. Nozülü 100°C'a ısıtıp yaylı vidaları söküp filamenti çıkarın.
@@ -76,15 +76,19 @@ Nozülün tıkanması filamentle birlikte içeri giren tozdan kaynaklanıyor ola
 ### 4. Filamentin Kendi Yolunu Kapatarak Tıkanması
  3D yazıcılarda ekstruderin tıkanmasına sebep olan sorunlardan en sık görülenidir. Sıcak alüminyum bloktaki ısı önce çelik barele, ordan da alüminyum radyatöre geçecektir. Bu da alüminyum radyatörün ısınması anlamına gelir. Alüminyum radyatör ısınırsa filament erimesi gereken yerden çok daha geride yumuşayıp şekil değiştirecek ve şekil değiştirdikten sonra katılaşarak yolunu tıkayacaktır. Alüminyum bloğun soğutulması ve PTFE (Teflon) boru kullanılarak filamentin yumuşadığında şekil değiştirmesinin önlenmesi gerekir.
 
- 30x30mm bir fan alüminyum bloğu soğutmak için yeterli olacaktır.
+##### a. Radyatörün Soğutulması
+ 30x30mm bir fan alüminyum bloğu soğutmak için yeterli olacaktır. 3D yazıcılarda kullanılan fanların çalışma gerilimi genelde 12 Volt olur.
 
 ![Ekstruder Alümiyum Bloğun Fan ile Soğutlması]({{site.baseurl}}/assets/img/aluminyum_blok_sogutma_fan.jpg)
 
  Asıl önemli nokta bu fan sadece yazdırma sırasında değil, yazıcı açık olduğu sürece **her zaman** çalışmalıdır. RAMPS üzerinde fanın bağlanması gereken yer:
 
 ![RAMPS v1.4 Üzerinde Extruder Fanı Bağlantısı]({{site.baseurl}}/assets/img/RAMPS_extruder_fan_pin.jpg)
+ RAMPS dışında bir kart kullanıyorsanız doğrudan 12V güç kaynağına veya kontrol kartınızın 12 Volt güç girişine bağlayabilirsiniz. Bu bağlantıyı yaptıktan sonra yazıcı açıksa yazdırma yapmıyorken bile fan çalışacaktır. Çalışmıyorsa fanı ve bağlantıları kontrol edin.
+ Bu konuda dikkat etmeniz gereken bir diğer nokta yazdırma tamamlandıktan hemen sonra hot end soğumadan yazıcıyı kapatırsanız fan duracak ve ısı cold ende geçip filamenti burada eritebilir. Bu yüzden sıcaklık 40°C'a düşene kadar yazıcıyı kapatmamalısınız.
 
-Alüminyum radyatörün başlangıcından başlayıp nozülün başlangıcına kadar devam eden bir teflon boru, filamentin yumuşadığında kendini tıkamasını engelleyecektir. Bazı ekstruderlerin yanında gelen, çelik barelden nozüle kadar olan teflon boru yetersizdir. Eğer böyle bir extrudere sahipseniz radyatörün başlangıcından çelik barele kadar bir teflon boru daha eklemeniz gerekir. 
+##### b. PTFE Boru ile Filament Yolu
+ Alüminyum radyatörün başlangıcından başlayıp nozülün başlangıcına kadar devam eden bir teflon boru, filamentin yumuşadığında kendini tıkamasını engelleyecektir. Bazı ekstruderlerin yanında gelen, çelik barelden nozüle kadar olan teflon boru yetersizdir. Eğer böyle bir extrudere sahipseniz radyatörün başlangıcından çelik barele kadar bir teflon boru daha eklemeniz gerekir. 
 
 ![Alüminyum Radyatör için Teflon PTFE Boru]({{site.baseurl}}/assets/img/aluminyum_radyator_teflon.jpg)
 
