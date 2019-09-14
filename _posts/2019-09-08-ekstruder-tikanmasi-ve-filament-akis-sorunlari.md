@@ -110,5 +110,7 @@ Yayların gerginliğini kontrol etmek için:
 2. Teflon bandı biraz gererek **saat yönünde** bir kaç tur sarın. Tersi yönde sararsanız vidayı takarken bant sökülecektir.
 
 ![Filament Sızması Sorunu Çözümü]({{site.baseurl}}/assets/img/filament_sizdirma.jpg)
+Çelik bareli alüminyum radyatöre bağlayan dişlere de (Fotoğrafta teflon bant sarılmamış olan dişlere) taşmayacak kadar termal macun sürmeniz filamentin yanlış yerde erimemesi için barelin daha etkili soğutulmasını sağlayacaktır.
+
 
 Önerilerinizi ve hatalarımı yorumlarda belirtirseniz yazıyı ona göre güncelleyebilirim. Sorunsuz yazdırmalar...
