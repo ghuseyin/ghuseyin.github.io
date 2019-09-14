@@ -74,7 +74,7 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 3. Nozülü söktükten sonra penseyle tutup metal bir şeyle temizleyebilirsiniz. Soğuyan plastik çıkmıyorsa çakmakla da ısıtabilirsiniz.
 
 ### 4. Filamentin Kendi Yolunu Kapatarak Tıkanması
- 3D yazıcılarda ekstruderin tıkanmasına sebep olan sorunlardan en sık görülenidir. Sıcak alüminyum bloktaki ısı önce çelik barele, ordan da alüminyum radyatöre geçecektir. Bu da alüminyum radyatörün ısınması anlamına gelir. Alüminyum radyatör ısınırsa filament erimesi gereken yerden çok daha geride yumuşayıp şekil değiştirecek ve şekil değiştirdikten sonra katılaşarak yolunu tıkayacaktır. Alüminyum bloğun soğutulması ve PTFE (Teflon) boru kullanılarak filamentin yumuşadığında şekil değiştirmesinin önlenmesi gerekir.
+ 3D yazıcılarda ekstruderin tıkanmasına sebep olan sorunlardan en sık görülenidir. Sıcak alüminyum bloktaki ısı önce çelik barele, ordan da alüminyum radyatöre geçecektir. Bu da alüminyum radyatörün ısınması anlamına gelir. Alüminyum radyatör ısınırsa filament erimesi gereken yerden çok daha geride yumuşayıp şekil değiştirecek ve şekil değiştirdikten sonra katılaşarak yolunu tıkayacaktır. Alüminyum radyatörün soğutulması ve PTFE (Teflon) boru kullanılarak filamentin yumuşadığında şekil değiştirmesinin önlenmesi gerekir.
 
 #### a. Radyatörün Soğutulması
  30x30mm bir fan alüminyum bloğu soğutmak için yeterli olacaktır. 3D yazıcılarda kullanılan fanların çalışma gerilimi genelde 12 Volt olur.
