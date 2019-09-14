@@ -21,8 +21,8 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 	2. Filament Makarası Sorunları
 	3. Nozülün Tıkanması
 	4. Filamentin Kendi Yolunu Kapatarak Tıkanması
-		a. Ekstruder Radyatörünün Soğutulması
-		b. PTFE Boru ile Filament Yolu
+		1. Ekstruder Radyatörünün Soğutulması
+		2. PTFE Boru ile Filament Yolu
 	5. Yay Gerginlik Ayarı
 	6. Hot End Vida Bağlantılarından Filament Sızması
 
