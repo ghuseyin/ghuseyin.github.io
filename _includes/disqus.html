@@ -2,14 +2,7 @@
   <div class="comment-wrapper">
     {% if site.discus-identifier %}
     <div id="disqus_thread" class="article-comments"></div>
-    <script>
-      (async function() {
-          var d = document, s = d.createElement('script');
-          s.src = '//{{ site.discus-identifier }}.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-      })();
-    </script>
+    <script src="disqus.js" defer=""></script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
   </div>
