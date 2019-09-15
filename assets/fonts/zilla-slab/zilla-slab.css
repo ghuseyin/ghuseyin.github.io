@@ -3,7 +3,7 @@
     src: url('woff/ZillaSlab-Light.woff');
     src: url('woff2/ZillaSlab-Light.woff2') format('woff2'),
          url('woff/ZillaSlab-Light.woff') format('woff'),
-         url('otf/ZillaSlab(-Light).otf') format('opentype'),
+         url('otf/ZillaSlab-Light.otf') format('opentype'),
          url('ttf/ZillaSlab-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
@@ -14,7 +14,7 @@
     src: url('woff/ZillaSlab-LightItalic.woff');
     src: url('woff2/ZillaSlab-LightItalic.woff2') format('woff2'),
          url('woff/ZillaSlab-LightItalic.woff') format('woff'),
-         url('otf/ZillaSlab(-LightItalic).otf') format('opentype'),
+         url('otf/ZillaSlab-LightItalic.otf') format('opentype'),
          url('ttf/ZillaSlab-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
@@ -25,7 +25,7 @@
     src: url('woff/ZillaSlab-Regular.woff');
     src: url('woff2/ZillaSlab-Regular.woff2') format('woff2'),
          url('woff/ZillaSlab-Regular.woff') format('woff'),
-         url('otf/ZillaSlab(-Regular).otf') format('opentype'),
+         url('otf/ZillaSlab-Regular.otf') format('opentype'),
          url('ttf/ZillaSlab-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
@@ -36,7 +36,7 @@
     src: url('woff/ZillaSlab-RegularItalic.woff');
     src: url('woff2/ZillaSlab-RegularItalic.woff2') format('woff2'),
          url('woff/ZillaSlab-RegularItalic.woff') format('woff'),
-         url('otf/ZillaSlab(-RegularItalic).otf') format('opentype'),
+         url('otf/ZillaSlab-RegularItalic.otf') format('opentype'),
          url('ttf/ZillaSlab-RegularItalic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
@@ -58,7 +58,7 @@
     src: url('woff/ZillaSlab-MediumItalic.woff');
     src: url('woff2/ZillaSlab-MediumItalic.woff2') format('woff2'),
          url('woff/ZillaSlab-MediumItalic.woff') format('woff'),
-         url('otf/ZillaSlab(-MediumItalic).otf') format('opentype'),
+         url('otf/ZillaSlab-MediumItalic.otf') format('opentype'),
          url('ttf/ZillaSlab-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
@@ -69,7 +69,7 @@
     src: url('woff/ZillaSlab-SemiBold.woff');
     src: url('woff2/ZillaSlab-SemiBold.woff2') format('woff2'),
          url('woff/ZillaSlab-SemiBold.woff') format('woff'),
-         url('otf/ZillaSlab(-SemiBold).otf') format('opentype'),
+         url('otf/ZillaSlab-SemiBold.otf') format('opentype'),
          url('ttf/ZillaSlab-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
@@ -80,7 +80,7 @@
     src: url('woff/ZillaSlab-SemiBoldItalic.woff');
     src: url('woff2/ZillaSlab-SemiBoldItalic.woff2') format('woff2'),
          url('woff/ZillaSlab-SemiBoldItalic.woff') format('woff'),
-         url('otf/ZillaSlab(-SemiBoldItalic).otf') format('opentype'),
+         url('otf/ZillaSlab-SemiBoldItalic.otf') format('opentype'),
          url('ttf/ZillaSlab-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
@@ -91,7 +91,7 @@
     src: url('woff/ZillaSlab-Bold.woff');
     src: url('woff2/ZillaSlab-Bold.woff2') format('woff2'),
          url('woff/ZillaSlab-Bold.woff') format('woff'),
-         url('otf/ZillaSlab(-Bold).otf') format('opentype'),
+         url('otf/ZillaSlab-Bold.otf') format('opentype'),
          url('ttf/ZillaSlab-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
@@ -102,7 +102,7 @@
     src: url('woff/ZillaSlab-BoldItalic.woff');
     src: url('woff2/ZillaSlab-BoldItalic.woff2') format('woff2'),
          url('woff/ZillaSlab-BoldItalic.woff') format('woff'),
-         url('otf/ZillaSlab(-BoldItalic).otf') format('opentype'),
+         url('otf/ZillaSlab-BoldItalic.otf') format('opentype'),
          url('ttf/ZillaSlab-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
