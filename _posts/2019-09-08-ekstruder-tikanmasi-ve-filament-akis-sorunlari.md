@@ -82,7 +82,7 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
 #### a. Ekstruder Radyatörünün Soğutulması
  30x30mm bir fan alüminyum bloğu soğutmak için yeterli olacaktır. 3D yazıcılarda kullanılan fanların çalışma gerilimi genelde 12 Volt olur.
 
-![Ekstruder Alümiyum Bloğun Fan ile Soğutlması]({{site.baseurl}}/assets/img/aluminyum_blok_sogutma_fan.jpg)
+![Ekstruder Alümiyum Bloğun Fan ile Soğutlması]({{site.baseurl}}/assets/img/aluminyum_blok_sogutma_fan.webp)
 
  Asıl önemli nokta bu fan sadece yazdırma sırasında değil, yazıcı açık olduğu sürece **her zaman** çalışmalıdır. RAMPS üzerinde fanın bağlanması gereken yer:
 
