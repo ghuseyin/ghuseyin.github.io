@@ -38,8 +38,11 @@ Eğer bunlardan biriyse Rcs değerinizi not alın ve bir sonraki kısma geçin. 
 ### Çin Malı A4988 Step Motor Sürücü Kartı
 Genelde kırmızı veya yeşil PCB'ye sahiptirler. Farklı Rcs değerlerine sahip modelleri var. 
 Renginin Rcs değeri ile bir alakası yok, bu sizi şaşırtmasın. Rcs değerini öğrenmek için entegrenin hemen yanındaki dirençlere bakmamız gerekiyor. Bu dirençler bazı modellerde S1 S2 gibi veya R4 R5 gibi yazılarla işaretleniyor. Kart üzerinde göstermek gerekirse bu fotoğrafta S1 ve S2 ile gösterilmiş:
+
 ![A4988 Akım Ayar Direnci S1 S2](https://reprap.org/mediawiki/images/thumb/3/31/A4988_detail_current_sense_r_1a.jpg/800px-A4988_detail_current_sense_r_1a.jpg)
+
 Bu fotoğrafta ise R4 ve R5 ile:
+
 ![A4988 Rcs Direnç R4 R5]({{site.baseurl}}/assets/img/A4988_step_motor_surucu.webp)
 
 İlk fotoğrafta R100, ikincide R10 olarak görünen dirençler sizde farklı olabilir. Eğer sizde 
