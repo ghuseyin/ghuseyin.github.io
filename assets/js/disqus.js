@@ -1,6 +1,6 @@
 (async function() {
           var d = document, s = d.createElement('script');
-          s.src = '//{{ site.discus-identifier }}.disqus.com/embed.js';
+          s.src = 'https://huseyinguzel-web-tr.disqus.com/embed.js';
           s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
 })();
