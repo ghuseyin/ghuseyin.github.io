@@ -91,7 +91,9 @@ tags: [Extruder, 3D, 3D Yazıcı Sorunları]
  Bu konuda dikkat etmeniz gereken bir diğer nokta yazdırma tamamlandıktan hemen sonra hot end soğumadan yazıcıyı kapatırsanız fan duracak ve ısı cold ende geçip filamenti burada eritebilir. Bu yüzden sıcaklık 40°C'a düşene kadar yazıcıyı kapatmamalısınız.
 
 #### b. PTFE Boru ile Filament Yolu
- Alüminyum radyatörün başlangıcından başlayıp nozülün başlangıcına kadar devam eden bir teflon boru, filamentin yumuşadığında kendini tıkamasını engelleyecektir. Bazı ekstruderlerin yanında gelen, çelik barelden nozüle kadar olan teflon boru yetersizdir. Eğer böyle bir extrudere sahipseniz radyatörün başlangıcından çelik barele kadar bir teflon boru daha eklemeniz gerekir. 
+ Alüminyum radyatörün başlangıcından başlayıp nozülün başlangıcına kadar devam eden bir PTFE boru, filamentin yumuşadığında kendini tıkamasını engelleyecektir. Bazı ekstruderlerin yanında gelen, çelik barelden nozüle kadar olan PTFE boru yetersiz kalabiliyor. Eğer böyle bir extrudere sahipseniz radyatörün başlangıcından çelik barele kadar bir PTFE boru daha eklemeniz gerekir.
+ 
+> **PTFE boruların maksimum çalışma sıcaklığı 260°C ile sınırlıdır.**
 
 ![Çelik Barel PTFE Ekleme]({{site.baseurl}}/assets/img/barel_PTFE_ekleme.webp)
 
