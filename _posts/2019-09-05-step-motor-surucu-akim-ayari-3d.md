@@ -5,7 +5,7 @@ date: 2019-09-05 13:32:20 +0300
 description: A4988 ve DRV8825 step motor sürücülerinin akım ayarını yaparak 3D yazıcının step motorlarının aşırı ısınma ve adım kaçırma sorununu çözeceğiz...
 img: a4988-drv8825.webp # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [A4988,DRV8825, Elektroik, 3D]
+tags: [A4988,DRV8825, Elektronik, 3D]
 ---
 
 Bu yazıda *A4988* ve *DRV8825* step motor sürücülerinin akım sınırlama ayarını yaparak 3D yazıcının step motorlarının aşırı ısınmaya bağlı adım kaçırma sorununu çözeceğiz. Bu işlem için bir avometreye veya voltmetreye ihtiyacımız olacak.
